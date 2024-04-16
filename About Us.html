@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home.html">HOME</a></li>
+                       <li><a href="Services.html">SERVICES</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!--About Us Content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h3>Crafting Solutions, Shaping Experiences</h3>
+                    <br><br>
+                    <p>At Budara Solutions, we're privileged to be architects of digital experiences. 
+                        Like artisans in a workshop, we meticulously design and engineer solutions that elevate your online presence and 
+                        brand identity. From captivating website designs to captivating graphic creations, 
+                        each project is meticulously crafted in our digital workshop. 
+                        We embrace complexity, infusing every solution with intricate details that define its unique style. 
+                        Our dedication to excellence ensures that clients return to us, time and time again, 
+                        for innovative technical solutions that leave a lasting impression.
+                    </p>
+                </div>
+                <div class="about-col">
+                    <img src="./Assets/Logo2.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-col">
+                    <img src="./Assets/abt.jpg" style="height: 450px; width: 450px;">
+                </div>
+                <div class="about-col">
+                    <br>
+                    <h3>Empowering Every Idea, Every Day</h3>
+                    <br>
+                    <p>At Budara Solutions, our mission is to deliver customized technical solutions that seamlessly integrate 
+                        into your daily routine. Our services are meticulously tailored to reflect your distinct vision and requirements. 
+                        Whether it's creating visually striking websites, designing compelling graphics, or developing cutting-edge software, 
+                        we're dedicated to enabling you to actualize your concepts effortlessly.</p>
+                </div>
+            </div>
+        </section>
+        
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="footer-row">
+            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>

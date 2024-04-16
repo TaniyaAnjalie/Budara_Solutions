@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+        <title>Contact Us</title>
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Theia Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home.html">HOME</a></li>
+                       <li><a href="Services.html">SERVICES</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <!--Contact Us Content-->
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col-1">
+                    <div>
+                        <h4>Address</h4>
+                        <span>
+                            <h5>No 48 A, St' Andrews Lane, Kadawatha, Sri Lanka</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <span>
+                            <h5>budarasolutions@gmail.com</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <h4>Facebook</h4>
+                        <span>
+                            <h5>@Budara Solutions</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <h4>Phone</h4>
+                        <span>
+                            <h5>+94 332280332</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <h4>Whatsapp</h4>
+                        <span>
+                            <h5>+94 716625223</h5>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col-2">
+                    <form action="Form Handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name :" required>
+                        <input type="email" name="email" placeholder="Enter email address :" required>
+                        <input type="text" name="subject" placeholder="Enter your subject :" required>
+                        <textarea rows="10" name="message" placeholder="Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0381430402863!2d79.94738407565796!3d7.004791499352133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f86872185d09%3A0x51049cc4c830e7e6!2sno%2048%2C%2048%20Andrews%20Ln%2C%20Kadawatha%2011850!5e0!3m2!1sen!2slk!4v1713277500918!5m2!1sen!2slk" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="footer-row">
+            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sub-header1">
+            <nav>
+               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Theia Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home.html">HOME</a></li>
+                       <li><a href="Services.html">SERVICES</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <h1 class="services-h1">Services</h1>
+            <p class="services-p">Budara is a supplier of high quality goods and services, providing a reliable service to solve daily customer needs and problems.
+                It is considered as the responsibility of the organization to provide an optimal solution for the customer's need, whatever it may be.
+                We are committed to maintaining the trust placed in us through the use of our wide range of services.
+            </p>
+        </section>
+
+        <!--Our Services-->
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col">
+                    <a href="Product Details 1.html"><img src="./Assets/BudaraToy1.png"></a>
+                </div>
+                <div class="col">
+                    <a href="Product Details 2.html"></a><img src="./Assets/BudaraHeart.png"></a>
+                </div>
+                <div class="col">
+                    <a href="Product Details 3.html"></a><img src="./Assets/BudaraToy2.png"></a>
+                </div>
+            </div>
+
+            <h2>Latest Projects</h2>
+            <div class="row">
+                <div class="col">
+                    <img src="./Assets/banner_image_1.png">
+                    <h4>Title 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tenetur ipsa, fugit quo vero dolore hic aliquid perspiciatis commodi vitae, 
+                        quod culpa odio tempore ad praesentium error veritatis non rerum reprehenderit?</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/banner_image_2.png">
+                    <h4>Title 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tenetur ipsa, fugit quo vero dolore hic aliquid perspiciatis commodi vitae, 
+                        quod culpa odio tempore ad praesentium error veritatis non rerum reprehenderit?</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/banner_image_3.png">
+                    <h4>Title 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tenetur ipsa, fugit quo vero dolore hic aliquid perspiciatis commodi vitae, 
+                        quod culpa odio tempore ad praesentium error veritatis non rerum reprehenderit?</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/banner_image_4.png">
+                    <h4>Title 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tenetur ipsa, fugit quo vero dolore hic aliquid perspiciatis commodi vitae, 
+                        quod culpa odio tempore ad praesentium error veritatis non rerum reprehenderit?</p>
+                </div>
+            </div>
+        </div>
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="footer-row">
+            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>

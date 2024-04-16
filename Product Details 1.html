@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+        <title>Product Details</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="sub-header2">
+            <nav>
+               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Theia Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home.html">HOME</a></li>
+                       <li><a href="Services.html">SERVICES</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <h1>Product Details</h1>
+        </section>
+
+        <!--Single Products Details-->
+        <div class="container2">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./Assets/BudaraToy1.png" width="90%">
+                </div>
+                <div class="col-2">
+                    <p>Home / Product / Toys</p>
+                    <h1>Kids Toy</h1>
+                    <p>Item Code: BT0001</p>
+                    <h4>Rs.000.00</h4>
+                    <!-- <select>
+                        <option>Select Colour</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                        <option>Yellow</option>
+                        <option>Green</option>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                    <br> -->
+                    <input type="number" value="1">
+                    <br>
+                    <a href="" class="btn hero-btn">Add to cart</a>
+                    <a href="" class="btn hero-btn2">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container1">
+            <div class="row">
+                <div class="col">
+                    <img src="./Assets/E_1.jpeg">
+                    <h4>Tussle</h4>
+                    <p>Item Code : TE0001</p>
+                    <p>Rs.350.00</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/E_2.jpeg">
+                    <h4>Tussle</h4>
+                    <p>Item Code : TE0002</p>
+                    <p>Rs.350.00</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/E_3.jpeg">
+                    <h4>Tussle</h4>
+                    <p>Item Code : TE0003</p>
+                    <p>Rs.400.00</p>
+                </div>
+                <div class="col">
+                    <img src="./Assets/E_4.jpeg">
+                    <h4>Tussle</h4>
+                    <p>Item Code : TE0004</p>
+                    <p>Rs.350.00</p>
+                </div>
+            </div>
+
+        </div> -->
+
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="footer-row">
+            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>

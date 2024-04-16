@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width , initial-scale=1.0">
+         <title>Budara One</title>
+         <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Logo" width="150PX" height="150PX"></a> 
+               <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="Home.html">HOME</a></li>
+                       <li><a href="Services.html">SERVICES</a></li>
+                       <li><a href="Contact Us.html">CONTACT US</a></li>
+                       <li><a href="About Us.html">ABOUT US</a></li>
+                   </ul>
+               </div>
+            </nav>
+            <div class="text-box">
+                <h1>Budara Solutions</h1>
+                <br><br>
+                <p style="font-size: 40px;">'Empowering Your Digital Journey, <br> One Solution at a Time.'</p>
+                <a href="Services.html" class="hero-btn">Services</a>
+            </div>
+                
+        </section>
+
+    <!--Services-->
+
+        <section class="category">
+            <h1>OUR SERVICES</h1>
+            
+            <div class="row">
+                <div class="category-col">
+                    <img src="./Assets/trip.jpg" alt="Trip Tour Guide">
+                    <h3>Trip Tour Guide</h3>
+                </div>
+                <div class="category-col">
+                    <img src="./Assets/research.jpg" alt="Support">
+                    <h3>University Assignments & Researches Support</h3>
+                </div>
+                <div class="category-col">
+                    <img src="./Assets/tec.jpg" alt="Tec">
+                    <h3>Technical Solutions</h3>
+                </div>
+            </div>
+
+        </section>
+
+    <!--Best Projects-->
+
+    <section class="bestseller">
+
+        <!-- <h1>Best Projects</h1> -->
+
+        <div class="row">
+            <div class="bestseller-col">
+                <img src="./Assets/banner_image_5.png" alt="Best Seller Earring 1">
+            </div>
+            <div class="bestseller-col">
+                <img src="./Assets/banner_image_1.png" alt="Best Seller Earring 1">
+            </div>
+            <div class="bestseller-col">
+                <img src="./Assets/banner_image_4.png" alt="Best Seller Earring 1">
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="bestseller-col">
+                <a href="Product Details 1.html">
+                    <img src="./Assets/BudaraToy1.png" alt="Best Seller Earring 1">
+                </a>
+                <h3>TE0005</h3>
+            </div>
+            <div class="bestseller-col">
+                <a href="Product Details 3.html">
+                    <img src="./Assets/BudaraHeart.png" alt="Best Seller Earring 1">
+                </a>
+                <h3>TE0007</h3>
+            </div>
+            <div class="bestseller-col">
+                <a href="Product Details 2.html">
+                    <img src="./Assets/BudaraToy2.png" alt="Best Seller Earring 1">
+                </a>
+                <h3>TE0006</h3>
+            </div>
+        </div> -->
+    </section>
+
+    <!--Feedbacks-->
+
+    <section class="feedbacks">
+
+        <h1>FEEDBACKS</h1>
+        <p>Our valuble customer's feedbacks..</p>
+
+        <div class="row">
+            <div class="feedbacks-col">
+                <img src="./Assets/Person1.jpg" alt="Customer 1">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptates iste blanditiis, 
+                        cupiditate accusantium vitae quia laboriosam illo aspernatur doloribus, accusamus molestias fuga 
+                        vel incidunt quas amet quam repudiandae aliquam!</p>
+                    <h3>Person 1</h3>
+                    <i<>⭐⭐⭐⭐</i>
+                </div>
+            </div>
+            <div class="feedbacks-col">
+                <img src="./Assets/Person2.jpg" alt="Customer 1">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptates iste blanditiis, 
+                        cupiditate accusantium vitae quia laboriosam illo aspernatur doloribus, accusamus molestias fuga 
+                        vel incidunt quas amet quam repudiandae aliquam!</p>
+                    <h3>Person 2</h3>
+                    <i<>⭐⭐⭐⭐⭐</i>
+                </div>
+            </div>
+            <div class="feedbacks-col-3">
+                <img src="./Assets/Person3.jpg" alt="Customer 1">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptates iste blanditiis, 
+                        cupiditate accusantium vitae quia laboriosam illo aspernatur doloribus, accusamus molestias fuga 
+                        vel incidunt quas amet quam repudiandae aliquam!</p>
+                    <h3>Person 3</h3>
+                    <i<>⭐⭐⭐⭐</i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="footer-row">
+            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
+        </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementByID("navLinks") ;
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+       
+    </body>
+</html>
