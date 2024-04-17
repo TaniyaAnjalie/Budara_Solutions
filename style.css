@@ -457,9 +457,8 @@ h3{
 
 .container{
     display: flex;
-    max-width:1080px;
+    max-width:100%;
     margin: 5px 10px 50px 10px;
-    padding-right: 25px;
 }
 
 .container h2{
@@ -484,18 +483,14 @@ h3{
 }
 
 .serv-left{
-    width: 20%;
-}
-
-.serv-right{
-    width: 80%;
+    width: 15%;
 }
 
 .serv-left ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 100%;
     background-color: #f1f1f1;
 }
   
