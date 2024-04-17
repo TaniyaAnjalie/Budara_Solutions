@@ -8,18 +8,7 @@
     </head>
     <body>
         <section class="header">
-            <nav>
-               <a href="Home.html"><img src="./Assets/Logo1.png" alt="Logo" width="150PX" height="150PX"></a> 
-               <div class="nav-links" id="navLinks"> 
-                <i class="fa fa-window-close" onclick="hideMenu()"></i>
-                   <ul>
-                       <li><a href="Home.html">HOME</a></li>
-                       <li><a href="Services.html">SERVICES</a></li>
-                       <li><a href="Contact Us.html">CONTACT US</a></li>
-                       <li><a href="About Us.html">ABOUT US</a></li>
-                   </ul>
-               </div>
-            </nav>
+            <div id="header"></div>
             <div class="text-box">
                 <h1>Budara Solutions</h1>
                 <br><br>
@@ -132,16 +121,15 @@
         </div>
     </section>
 
-    <!--Footer-->
-
-    <section class="footer">
-        <div class="footer-row">
-            <p>COPYRIGHT ©️ 2024 Budara Solutions</p>
-        </div>
-    </section>
+    <div id="footer"></div>
 
     <!--JavaScript for Toggle Menu-->
         <script>
+            $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            });
+
             var navLinks = document.getElementByID("navLinks") ;
 
             function showMenu(){
